@@ -22,8 +22,8 @@
 #     "age" : 22,
 #     "city" : "Paris",
 # }
-# for index, value in Alice.items ():
-#     print(index, value)
+# for key, value in Alice.items ():
+#     print(key, value)
 
 # for i in range(1, 6):       
 #     for j in range(1, 6):     
@@ -39,7 +39,23 @@
 
 # TODO: Implement a simple calculator using a while loop
 # (continue calculating until the user chooses to exit)
-i = 1
-while i <= 10:
-    print(i)
-    i += 1
+
+# i = 1
+# while i <= 10:
+#     print(i)
+# \
+# import random
+# nombre_secret = random.randint(1, 10)
+# devine = 0
+# while devine != nombre_secret:
+#     devine = int(input("Devinez le nombre entre 1 et 10 : "))  # demande la saisie
+#     if devine < nombre_secret:
+#         print("Trop petit !")
+#     elif devine > nombre_secret:
+#         print("Trop grand !")
+#     else:
+#         print("Bravo")
+
+for i in range (1, 6): 
+    for j in range (1, 11): 
+        print(i*j)
